@@ -80,5 +80,11 @@
 #define COMMAND_MOTOR_KI 0xA6
 #define COMMAND_MOTOR_KD 0xA7
 
+/**
+ * @brief Configuration IMU
+ *
+ */
+#define IMU_PORT hi2c1
+#define IMU_MAX_TIMEOUT 100
 
 
